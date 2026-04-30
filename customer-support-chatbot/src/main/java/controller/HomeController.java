@@ -7,7 +7,7 @@ public class HomeController {
     @GetMapping("/home")
     public String home() {
         System.out.println(" This is feature branch ");
-        return "home"; // This will render the home.html template
+        return "feature changes for PR"; // This will render the home.html template
     }
 
 
