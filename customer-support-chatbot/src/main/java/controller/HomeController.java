@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
     @GetMapping("/home")
     public String home() {
-        System.out.println(" This is feature branch ");
+        System.out.println(" Another user made changes");
         return "feature changes for PR"; // This will render the home.html template
     }
 
