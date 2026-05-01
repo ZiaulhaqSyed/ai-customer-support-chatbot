@@ -10,5 +10,11 @@ public class HomeController {
         return "feature changes for PR"; // This will render the home.html template
     }
 
+    @GetMapping("/home")
+    public String house() {
+        System.out.println(" This is feature branch ");
+        return "home"; // This will render the home.html template
+    }
+
 
 }
