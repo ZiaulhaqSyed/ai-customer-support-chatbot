@@ -13,6 +13,7 @@ public class HomeController {
     @GetMapping("/home")
     public String house() {
         System.out.println(" This is feature branch ");
+        // This changes for git fetch 
         return "home"; // This will render the home.html template
     }
 
